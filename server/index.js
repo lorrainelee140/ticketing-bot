@@ -1136,7 +1136,7 @@ app.post('/api/admin/reset-database', authRequired, adminRequired, asyncHandler(
 
     for (const event of events) {
       const eventId = event[0]
-      const price = eventId === 1 ? 0.00 : 1.00
+      const price = eventId === 1 ? 1.00 : 1.00
       const releasedQuantity = eventId === 1 ? 99999 : 0
       const ticketName = eventId === 1 ? 'Trial Tickets' : 'Main Tickets'
 
