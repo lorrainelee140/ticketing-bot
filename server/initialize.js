@@ -85,7 +85,7 @@ try {
 
   for (const event of events) {
     const eventId = event[0]
-    const price = eventId === 1 ? 0 : 1
+    const price = eventId === 1 ? 1 : 1
     const releasedQuantity = eventId === 1 ? 99999 : 0
     const ticketName = eventId === 1 ? 'Trial Tickets' : 'Main Tickets'
 
