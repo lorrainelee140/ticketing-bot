@@ -1,6 +1,6 @@
 export const seedUsers = [
   { email: 'fakebuyer', password: 'password', walletBalance: 5, isAdmin: false },
-  { email: 'admin', password: 'adminpass2', walletBalance: 5, isAdmin: true },
+  { email: 'admin', password: 'adminpass2', walletBalance: 500, isAdmin: true },
 
   { email: 'student1', password: 'student1', walletBalance: 5, isAdmin: false },
   { email: 'student2', password: 'student2', walletBalance: 5, isAdmin: false },
