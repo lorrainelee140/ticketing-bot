@@ -1255,8 +1255,8 @@ if (hasBuiltFrontend) {
   app.get('/', (req, res) => {
     res.json({
       ok: true,
-      service: 'acc3202-ticketing-api',
-      frontendUrl: 'https://hunternbh.github.io/acc3202-ticketing-bot/',
+      service: 'ticketing-api',
+      frontendUrl: 'https://lorrainelee140.github.io/ticketing-bot/',
     })
   })
 
